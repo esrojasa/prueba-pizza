@@ -28,8 +28,8 @@ const CartList = ({ cart, addToCart, removeFromCart, cartTotal }) => {
                 <div className="d-flex justify-content-center">
                     <hr className="col-lg-10" />
                 </div>
-                <div className="col-lg-10 d-flex justify-content-end">
-                    <h3 className="mx-5">Total: ${cartTotal()}</h3>
+                <div className="col-lg-10 d-flex align-items-center justify-content-end">
+                    <h3 className="mx-5 m-0">Total: ${cartTotal()}</h3>
                     <Link to="/pagar" className="btn btn-primary">Ir a Pagar</Link>
                 </div>
             </ul>
